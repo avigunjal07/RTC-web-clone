@@ -7,9 +7,73 @@
 </head>
 <style>
 
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        position: sticky;
+        top: 10px;
+        width: 1000px   ;
+        border-radius: 30px;
+        margin: 0 auto;
+        margin-top: 20px;
+        box-shadow: 1px 1px 5px 1px rgb(232, 124, 124);
+    }
+
+    .mh1{
+        font-size: 25px;
+        padding-right: 150px;
+    }
+
+    .headimg{
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+
+    .navbar{
+        color:black;
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #navic{
+        padding-right: 20px;
+        color:black
+    }
+
+    #loginbtn{
+       background-color: black;
+       border-radius: 30px;
+       border: none;
+       margin-left: 150px; 
+       font-size: 15px;
+       color: white;
+       padding: 8px 25px;
+    }
+
 </style>
 
 <body>
-    <h1>Page is initialized</h1>
+    <div class="header">
+    <div class="headimg">
+        <img src="./images/alpha.png" alt="logo" height="35px">
+    </div>
+
+    <div>
+        <h1 class="mh1">Road to Code</h1>
+    </div>
+
+    <div class="navbar">
+        <a href="" id="navic">Home</a>
+        <a href="" id="navic">Courses</a>
+        <a href="" id="navic">ICP</a>
+        <a href="" id="navic">Subscription</a>
+    </div>
+
+    <button id="loginbtn">Login</button>
+    </div>
+
 </body>
 </html>
