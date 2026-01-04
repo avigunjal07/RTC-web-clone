@@ -15,14 +15,15 @@
         position: sticky;
         top: 10px;
         width: 1000px   ;
+
         border-radius: 30px;
         margin: 0 auto;
-        margin-top: 20px;
-        box-shadow: 1px 1px 5px 1px rgb(232, 124, 124);
+        margin-top: 15px;
+        box-shadow: 1px 1px 5px 1px rgb(207, 204, 204);
     }
 
     .mh1{
-        font-size: 25px;
+        font-size: 22px;
         padding-right: 150px;
     }
 
@@ -53,6 +54,136 @@
        padding: 8px 25px;
     }
 
+    .tagline{
+        background-color: rgb(249, 248, 243);
+        margin: 15px 38%;
+        display: inline-block;
+        width: auto;
+        padding: 5px 25px;
+        border-radius: 30px;
+        margin-top: 60px;
+        box-shadow: 0px 0px 5px 1px rgb(214, 214, 211);
+        border: 1px;
+        border-color: black;
+    }
+
+    #h1t{
+        margin: 0 auto;
+        text-align: center;
+        font-size: 45px;
+        font-family: sans-serif;
+    }
+
+    #tagline3{
+        font-size: 20px;
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+        margin: 15px;
+    }
+
+    .btns{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #btn1{
+        padding: 12px 35px;
+        border: none;
+        border-radius: 30px;
+        background-color: black;
+        color: white;
+        margin: 15px 10px;
+        font-size: 15px;
+    }
+
+    #btn2{
+        padding: 10px 30px;
+        border-radius: 30px;
+        background-color: white;
+        color: black;
+        margin: 15px 10px;
+        box-shadow: 1px 1px 5px 1px rgb(238, 236, 236);
+        font-size: 15px;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        background: transparent;
+
+
+    }
+
+    .shape{
+        width: 1225px;
+        height: 650px;
+        background-color: black;
+        border-radius: 25px;
+        margin: 50px 150px;
+        display: flex;
+    }
+
+    .shape1{
+        background-color:rgb(7, 7, 7);
+        width: 650px;
+        height: 600px;
+        border-radius: 25px;
+        color: white;
+        border: none;
+        padding-left: 50px;
+        padding-top: 50px;
+        padding-right: 40px;
+    }
+    .shape2{
+        background-color:white;
+        width:620px ;
+        height: 500px;
+        margin: 75px 30px;
+        border-radius: 25px;
+    }
+
+    #shapebtn{
+        background-color: white;
+        border: none;
+        width: 170px;
+        height: 75px;
+        border-radius: 10px;
+        margin: 5px;
+        font-size: 20px;
+        color: black;
+        margin-bottom: 50px;
+    }
+
+    #descbtn{
+        background-color: white;
+        border: none;
+        width: 262px;
+        height: 100px;
+        border-radius: 10px;
+        margin: 5px;
+        font-size: 15px;
+        color: black;
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+
+    #sh{
+        padding: 10px;
+    }
+
+    .descbtna{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .shape2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+
 </style>
 
 <body>
@@ -73,6 +204,55 @@
     </div>
 
     <button id="loginbtn">Login</button>
+    </div>
+
+    <div class="tagline">Real Skills Real Projects Real opportunities</div>
+
+    <h1 id="h1t">Engineering 2.0 - The engineering<br> education you actually needed</h1>
+
+    <span id="tagline3">we teach everything your college forget to teach you </span>
+
+    <div class="btns">
+        <button id="btn1"><b>Contact us</b></button>
+        <button id="btn2"><b>Browse courses</b></button>
+    </div>
+
+    <div class="shape">
+        <div class="shape1">
+            <h1>One Subscription-All coourses</h1>
+            <p>Pay once and get 18 months of unlimited access to our all courses, including the Internship Cohort Program. No hidden fees.</p>
+
+            <div class="3btn">
+                <button id="shapebtn">One Time Fee <br><b>$4999/-</b></button>
+                <button id="shapebtn">validity <br><b>18 months</b></button>
+                <button id="shapebtn">courses <br><b>all courses</b></button>
+            </div>
+                
+            <div class="descbtna">
+                <button id="descbtn">
+                    <img src="./images/alpha.png" alt="" height="25px" id="img">
+                    <span id="sh"><b>Start from basics</b><br>Build a strong foundation with beginner-friendly courses</span>
+                </button>
+                <button id="descbtn">
+                    <img src="./images/alpha.png" alt="" height="25px">
+                    <span id="sh"><b>Start from basics</b><br>Build a strong foundation with beginner-friendly courses</span>
+                </button>
+            </div>
+            <div class="descbtna">
+                <button id="descbtn">
+                    <img src="./images/alpha.png" alt="" height="25px">
+                    <span id="sh"><b>Start from basics</b><br>Build a strong foundation with beginner-friendly courses</span>
+                </button>
+                <button id="descbtn">
+                    <img src="./images/alpha.png" alt="" height="25px">
+                    <span id="sh"><b>Start from basics</b><br>Build a strong foundation with beginner-friendly courses</span>
+                </button>
+            </div>
+        </div>
+        <div class="shape2">
+            <img src="./images/20218 (14).jpg" alt="" height="490px">
+        </div>
+
     </div>
 
 </body>
